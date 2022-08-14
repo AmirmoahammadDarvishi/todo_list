@@ -1,6 +1,5 @@
 import React from "react";
 import { alpha, styled } from "@mui/material/styles";
-import InputBase from "@mui/material/InputBase";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import TextField from "@mui/material/TextField";
