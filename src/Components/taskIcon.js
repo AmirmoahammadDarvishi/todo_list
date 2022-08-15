@@ -8,16 +8,9 @@ import EditIcon from "@mui/icons-material/Edit";
 import RemoveDoneIcon from "@mui/icons-material/RemoveDone";
 const TaskIcon = ({ toggleDoneItem, index, item, deleteItem, editHandler }) => {
       return (
-            <div className="col justify-content-between">
+            <div className="col justify-content-between text-white">
                   {item.done ? (
-                        <Tooltip title="Undone">
-                              <IconButton>
-                                    <RemoveDoneIcon
-                                          onClick={() => toggleDoneItem(index)}
-                                          className="IconHover"
-                                    />
-                              </IconButton>
-                        </Tooltip>
+                        ""
                   ) : (
                         <Tooltip title="Done">
                               <IconButton>

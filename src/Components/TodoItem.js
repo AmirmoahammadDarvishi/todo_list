@@ -19,6 +19,28 @@ const TodoItem = ({
       toggleDoneItem,
       handlePriority,
 }) => {
+      let resualt0, resualt1, resualt2, resualt3;
+      const items0 = data.map((item, index) => {
+            if (item.priority === 0) {
+                  return item;
+            }
+      });
+      const items1 = data.map((item, index) => {
+            if (item.priority === 1) {
+                  return item;
+            }
+      });
+      const items2 = data.map((item, index) => {
+            if (item.priority === 2) {
+                  return item;
+            }
+      });
+      const items3 = data.map((item, index) => {
+            if (item.priority === 3) {
+                  return item;
+            }
+      });
+      console.log(items0);
       return (
             <div>
                   {data.map((item, index) => {
